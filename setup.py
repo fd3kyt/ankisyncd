@@ -10,7 +10,7 @@ def get_anki_bundled_files():
 
 
 setup(
-    name="AnkiServer",
+    name="ankisyncd",
     version="2.1",
     description="A personal Anki sync server" +
     "(so you can sync against your own server rather than AnkiWeb)",
