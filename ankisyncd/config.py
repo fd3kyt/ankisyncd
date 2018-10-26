@@ -5,6 +5,7 @@ from os.path import dirname, realpath
 
 paths = [
     "/etc/ankisyncd/ankisyncd.conf",
+    "/usr/local/ankisyncd.conf",
     os.environ.get("XDG_CONFIG_HOME") and
         (os.path.join(os.environ['XDG_CONFIG_HOME'], "ankisyncd", "ankisyncd.conf")) or
         os.path.join(os.path.expanduser("~"), ".config", "ankisyncd", "ankisyncd.conf"),
