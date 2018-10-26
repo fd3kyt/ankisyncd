@@ -24,7 +24,7 @@ setup(
     ],
     data_files=get_anki_bundled_files()+["ankisyncd.conf"],
     zip_safe=False,
-    scripts=['ankisyncctl.py'],
+    scripts=['ankisyncctl.py', "ankisyncd.conf"],
     packages=['ankisyncd'],
     classifiers=[
         'Development Status :: 3 - Alpha',
